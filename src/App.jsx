@@ -1,25 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <h1 className='text-center font-bold text-4xl '>Black & Whit</h1>
+
+      <div className='flex gap-2  min-h-[50vh] items-center align-middle'>
+
+        <p className='border rounded-md p-6 bg-gray-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aut, dolores dolorem rem, facilis ducimus reiciendis delectus suscipit fugiat obcaecati necessitatibus sit vitae perferendis odio magni saepe consectetur nulla illo culpa illum neque quibusdam! Voluptatibus iure laudantium aliquam, veritatis nemo accusamus quidem, sint quas, magnam dolorum dignissimos neque illo voluptatem.</p>
+
+        <p className='border rounded-md p-6 bg-gray-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aut, dolores dolorem rem, facilis ducimus reiciendis delectus suscipit fugiat obcaecati necessitatibus sit vitae perferendis odio magni saepe consectetur nulla illo culpa illum neque quibusdam! Voluptatibus iure laudantium aliquam, veritatis nemo accusamus quidem, sint quas, magnam dolorum dignissimos neque illo voluptatem.</p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
