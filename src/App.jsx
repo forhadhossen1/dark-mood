@@ -33,6 +33,10 @@ function App() {
         className='p-5 bg-gray-500 rounded-lg dark:bg-gray-300'>
           { !darkMoode ? 'Light' : 'Dark'} Mood </button>
       </div>
+
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eos voluptates maiores iste consequuntur minima ipsam id reprehenderit, officiis reiciendis vel, nisi maxime libero ipsa perferendis. Laboriosam aut natus in enim incidunt, consectetur earum inventore, fuga temporibus perspiciatis, ducimus quidem quod? Consectetur illo mollitia voluptatibus voluptate illum impedit autem nobis!</p>
+      </div>
     </>
   )
 }
